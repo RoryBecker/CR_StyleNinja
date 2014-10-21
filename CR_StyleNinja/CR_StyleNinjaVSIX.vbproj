@@ -73,12 +73,15 @@
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="DevExpress.DXCore.Controls.Utils.v6.3">
       <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.DXCore.Parser">
       <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.Refactor.core">
       <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -96,11 +99,21 @@
     <Reference Include="System.Xml" />
     <Reference Include="EnvDTE" />
     <Reference Include="EnvDTE80" />
-    <Reference Include="DevExpress.CodeRush.Common" />
-    <Reference Include="DevExpress.CodeRush.Core" />
-    <Reference Include="DevExpress.CodeRush.PlugInCore" />
-    <Reference Include="DevExpress.CodeRush.StructuralParser" />
-    <Reference Include="DevExpress.CodeRush.VSCore" />
+    <Reference Include="DevExpress.CodeRush.Common">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.CodeRush.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.CodeRush.PlugInCore">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.CodeRush.StructuralParser">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.CodeRush.VSCore">
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />

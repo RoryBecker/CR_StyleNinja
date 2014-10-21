@@ -3,7 +3,7 @@
     <Identifier Id="CR_StyleNinja">
         <Name>StyleNinja for CodeRush</Name>
         <Author>Rory Becker</Author>
-        <Version>1.1</Version>
+        <Version>1.1.1</Version>
         <Description xml:space="preserve">'StyleNinja for CodeRush' provides an implementation of some of the StyleCop rules, surfacing them from within the CodeRush 'Code Issues' feature.</Description>
         <Locale>1033</Locale>
         <Icon>CR-Plug-in.png</Icon>
